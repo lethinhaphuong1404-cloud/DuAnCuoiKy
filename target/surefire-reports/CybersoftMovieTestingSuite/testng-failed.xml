@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CybersoftMovieTestingSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Movie Website Tests(failed)" verbose="0">
+    <classes>
+      <class name="vn.cybersoft.framework.tests.BookingHistoryTest">
+        <methods>
+          <include name="verifyBookingHistoryPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- vn.cybersoft.framework.tests.BookingHistoryTest -->
+      <class name="vn.cybersoft.framework.tests.SeatSelectionTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifySeatSelectionPage"/>
+        </methods>
+      </class> <!-- vn.cybersoft.framework.tests.SeatSelectionTest -->
+      <class name="vn.cybersoft.framework.tests.MovieBookingValidationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyBuyTicketRequiresMovieSelection"/>
+        </methods>
+      </class> <!-- vn.cybersoft.framework.tests.MovieBookingValidationTest -->
+    </classes>
+  </test> <!-- Movie Website Tests(failed) -->
+</suite> <!-- Failed suite [CybersoftMovieTestingSuite] -->

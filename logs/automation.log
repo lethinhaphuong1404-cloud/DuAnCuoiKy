@@ -1,0 +1,12 @@
+2026-10-20 00:09:24 [INFO] HomePageTest - Khởi tạo trình duyệt cho HomePageTest
+2026-10-20 00:09:27 [INFO] HomePageTest - AUTO-001: Đã mở trang chủ.
+2026-10-20 00:09:27 [INFO] HomePageTest - Đóng trình duyệt cho HomePageTest
+2026-10-20 00:09:28 [INFO] HomePageTest - Khởi tạo trình duyệt cho HomePageTest
+2026-10-20 00:09:29 [INFO] HomePageTest - AUTO-002: Đã tìm thấy hình ảnh hiển thị.
+2026-10-20 00:09:29 [INFO] HomePageTest - Đóng trình duyệt cho HomePageTest
+2026-10-20 00:09:29 [INFO] MovieBookingValidationTest - Khởi tạo trình duyệt cho MovieBookingValidationTest
+2026-10-20 00:09:31 [INFO] MovieBookingValidationTest - Đóng trình duyệt cho MovieBookingValidationTest
+2026-10-20 00:09:31 [INFO] SeatSelectionTest - Khởi tạo trình duyệt cho SeatSelectionTest
+2026-10-20 00:09:32 [INFO] SeatSelectionTest - Đóng trình duyệt cho SeatSelectionTest
+2026-10-20 00:09:33 [INFO] BookingHistoryTest - Khởi tạo trình duyệt cho BookingHistoryTest
+2026-10-20 00:09:33 [INFO] BookingHistoryTest - Đóng trình duyệt cho BookingHistoryTest
