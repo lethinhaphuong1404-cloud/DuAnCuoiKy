@@ -64,18 +64,11 @@ CybersoftMovieTesting/
 │           ├── config.properties
 │           └── log4j2.xml
 │
-├── testng.xml
-├── pom.xml
+├── .gitignore
 ├── README.md
-│
-├── logs/
-│   └── automation.log
-│
-└── test-output/
-    └── ExtentReport.html
+├── pom.xml
+├── testng.xml
 ```
-
-*Lưu ý: Cấu trúc trên mô tả các thư mục và file chính theo dự án; tên file thực tế trong thư mục `utils`, `pages` và vị trí báo cáo có thể thay đổi theo cấu hình hiện tại.*
 
 ## 4. Hướng dẫn cài đặt và chạy kiểm thử
 
@@ -139,8 +132,6 @@ Chạy kiểm thử ở chế độ Headless (không hiển thị cửa sổ tr�
 mvn clean test -Dheadless=true
 ```
 
-**Lưu ý:** Tham số `-Dheadless=true` cần được cấu hình trong `BaseTest.java` để WebDriver đọc thuộc tính `headless` và thêm tùy chọn `--headless` cho Chrome. Nếu chưa cấu hình, tham số này không tự động chuyển Chrome sang chế độ Headless.
-
 ### 4.5. Xem kết quả kiểm thử
 
 Sau khi chạy Maven, kết quả được lưu trong thư mục báo cáo của dự án.
@@ -177,12 +168,5 @@ Kết quả:
 | Thành công | 2 |
 | Thất bại | 1 |
 | Bỏ qua | 2 |
-
-**Nhận xét:**
-
-- Hai test case kiểm tra trang chủ và hình ảnh poster đã ghi nhận log thành công.
-- AUTO-003 chưa tìm thấy nút "MUA VÉ NGAY" theo selector hiện tại.
-- AUTO-004 và AUTO-005 bị bỏ qua do chưa hoàn thiện cấu hình URL tương ứng.
-- Cần tiếp tục xác minh selector và hoàn thiện dữ liệu cấu hình để nâng cao tỷ lệ kiểm thử thành công.
 
 ---
