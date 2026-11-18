@@ -36,8 +36,6 @@ Các mục tiêu chính:
 CybersoftMovieTesting/
 │
 ├── src/
-│   ├── main/
-│   │
 │   └── test/
 │       ├── java/
 │       │   └── vn/
